@@ -60,37 +60,37 @@ const Quiz = () => {
         multipleChoice: [
             {
                 "id": 1,
-                "question": "Choose the correct form of the verb 'to be': She ___ a teacher.",
-                "options": ["is", "am", "are", "be"],
-                "answer": ["is"],
+                "question": "I will call you ___.",
+                "options": ["in the morning", "on the morning", "at the morning"],
+                "answer": ["in the morning"],
                 "selectedOption": null
             },
             {
                 "id": 2,
-                "question": "Choose the correct pronoun (Male): ___ is my best friend.",
-                "options": ["He", "She", "They", "We"],
-                "answer": ["He"],
+                "question": "We have lunch ___.",
+                "options": ["in noon", "on noon", "at noon"],
+                "answer": ["at noon"],
                 "selectedOption": null
             },
             {
                 "id": 3,
-                "question": "Choose the correct possessive pronoun: This is ___ book.",
-                "options": ["my", "mine", "I", "me"],
-                "answer": ["my"],
+                "question": "She was born ___.",
+                "options": ["in January", "on January", "at January"],
+                "answer": ["in January"],
                 "selectedOption": null
             },
             {
                 "id": 4,
-                "question": "Choose the correct form of the verb 'to be': They ___ at home.",
-                "options": ["is", "am", "are", "be"],
-                "answer": ["are"],
+                "question": "The movie starts ___.",
+                "options": ["in 7:00 PM", "on 7:00 PM", "at 7:00 PM"],
+                "answer": ["at 7:00 PM"],
                 "selectedOption": null
             },
             {
                 "id": 5,
-                "question": "Choose the correct pronoun: ___ are going to the store.",
-                "options": ["He", "I", "We", "She"],
-                "answer": ["We"],
+                "question": "They visit their grandparents ___.",
+                "options": ["in the weekend", "on the weekend", "at the weekend"],
+                "answer": ["on the weekend"],
                 "selectedOption": null
             }
         ]
@@ -98,154 +98,158 @@ const Quiz = () => {
         fillInTheBlank: [
             {
                 "id": 6,
-                "question": "I ___ happy to see you.",
+                "question": "I usually wake up ___ 7:00 AM.",
                 "options": [],
-                "answer": ["am", "AM", "Am"],
+                "answer": ["at", "At", "AT"],
                 "selectedOption": null
             },
             {
                 "id": 7,
-                "question": "They ___ my friends.",
+                "question": "My birthday is ___ May.",
                 "options": [],
-                "answer": ["are", "Are", "ARE"],
+                "answer": ["in", "In", "IN"],
                 "selectedOption": null
             },
             {
                 "id": 8,
-                "question": "She ___ not at home.",
+                "question": "We have a meeting ___ Friday.",
                 "options": [],
-                "answer": ["is", "Is", "IS"],
+                "answer": ["on", "On", "ON"],
                 "selectedOption": null
             },
             {
                 "id": 9,
-                "question": "We ___ ready to go.",
+                "question": "She likes to read books ___ the evening.",
                 "options": [],
-                "answer": ["are", "Are", "ARE"],
+                "answer": ["in", "In", "IN"],
                 "selectedOption": null
             },
             {
                 "id": 10,
-                "question": "He ___ my brother.",
+                "question": "The store closes ___ midnight.",
                 "options": [],
-                "answer": ["is", "Is", "IS"],
+                "answer": ["at", "At", "AT"],
                 "selectedOption": null
             }
         ]
+
         ,
         errorIdentification: [
             {
                 "id": 11,
-                "question": "They is going to the park.",
-                "options": ["They", "is", "going", "to"],
-                "answer": ["is"],
+                "question": "I will call you on the morning.",
+                "options": ["I", "will call", "on", "the morning"],
+                "answer": ["on"],
                 "selectedOption": null
             },
             {
                 "id": 12,
-                "question": "She are a doctor.",
-                "options": ["she", "are", "a", "doctor"],
-                "answer": ["are"],
+                "question": "We have lunch on noon.",
+                "options": ["We", "have lunch", "on", "noon"],
+                "answer": ["on"],
                 "selectedOption": null
             },
             {
                 "id": 13,
-                "question": "I am happy to see they.",
-                "options": ["I", "am", "happy", "they"],
-                "answer": ["they"],
+                "question": "She was born at January.",
+                "options": ["She", "was born", "at", "January"],
+                "answer": ["at"],
                 "selectedOption": null
             },
             {
                 "id": 14,
-                "question": "You is my friend.",
-                "options": ["You", "is", "my", "friend"],
-                "answer": ["is"],
+                "question": "The movie starts in 7:00 PM.",
+                "options": ["The movie", "starts", "in", "7:00 PM"],
+                "answer": ["in"],
                 "selectedOption": null
             },
             {
                 "id": 15,
-                "question": "This is hers book.",
-                "options": ["this", "is", "hers", "book"],
-                "answer": ["hers"],
+                "question": "They visit their grandparents in the weekend.",
+                "options": ["They", "visit", "in", "the weekend"],
+                "answer": ["in"],
                 "selectedOption": null
             }
         ]
+
         ,
         sentenceCompletion: [
             {
                 "id": 16,
-                "question": "___ (Male) has a dog.",
-                "options": ["He", "She"],
-                "answer": ["He", "he", "HE"],
+                "question": "I usually wake up ___.",
+                "options": ["at 7:00 AM", "on 7:00 AM", "in 7:00 AM"],
+                "answer": ["at 7:00 AM"],
                 "selectedOption": null
             },
             {
                 "id": 17,
-                "question": "___ (Them) are going to the cinema.",
-                "options": ["They", "We"],
-                "answer": ["They", "They", "THEY"],
+                "question": "My birthday is ___.",
+                "options": ["at May", "on May", "in May"],
+                "answer": ["in May"],
                 "selectedOption": null
             },
             {
                 "id": 18,
-                "question": "___ (Me) am very tired.",
-                "options": ["I", "You"],
-                "answer": ["I", "i"],
+                "question": "We have a meeting ___.",
+                "options": ["at Friday", "on Friday", "in Friday"],
+                "answer": ["on Friday"],
                 "selectedOption": null
             },
             {
                 "id": 19,
-                "question": "___ (She/He) is my sister.",
-                "options": ["She", "He"],
-                "answer": ["She", "she", "SHE"],
+                "question": "She likes to read books ___.",
+                "options": ["at the evening", "on the evening", "in the evening"],
+                "answer": ["in the evening"],
                 "selectedOption": null
             },
             {
                 "id": 20,
-                "question": "___ (Us) are friends.",
-                "options": ["We", "They"],
-                "answer": ["We", "WE", "we"],
+                "question": "The store closes ___.",
+                "options": ["at midnight", "on midnight", "in midnight"],
+                "answer": ["at midnight"],
                 "selectedOption": null
             }
         ]
+
         ,
         paragraphInterpretation: [
             {
                 "id": 21,
-                "question": "Who is ten years old?",
-                "options": ["Anna", "Tom", "Lucy", "John"],
-                "answer": ["Tom"],
+                "question": "What time does the person usually wake up?",
+                "options": ["7:00 AM", "8:00 AM", "9:00 AM"],
+                "answer": ["7:00 AM"],
                 "selectedOption": null
             },
             {
                 "id": 22,
-                "question": "What is the name of Anna's cat?",
-                "options": ["Tom", "Lucy", "Whiskers", "John"],
-                "answer": ["Whiskers"],
+                "question": "When is the person's birthday?",
+                "options": ["In May", "In June", "In July"],
+                "answer": ["In May"],
                 "selectedOption": null
             },
             {
                 "id": 23,
-                "question": "How old is Lucy?",
-                "options": ["Five", "Ten", "Seven", "Three"],
-                "answer": ["Five"],
+                "question": "On which day is the meeting?",
+                "options": ["Monday", "Wednesday", "Friday"],
+                "answer": ["Friday"],
                 "selectedOption": null
             },
             {
                 "id": 24,
-                "question": "What is the name of Anna's mother?",
-                "options": ["Anna", "Mary", "Lucy", "Whiskers"],
-                "answer": ["Mary"],
+                "question": "When does the person like to read books?",
+                "options": ["In the morning", "In the afternoon", "In the evening"],
+                "answer": ["In the evening"],
                 "selectedOption": null
             },
             {
                 "id": 25,
-                "question": "Where does Anna live?",
-                "options": ["In a big house", "In a small house", "In an apartment", "In a city"],
-                "answer": ["In a small house"],
+                "question": "At what time does the store close?",
+                "options": ["At 10:00 PM", "At midnight", "At 11:00 PM"],
+                "answer": ["At midnight"],
                 "selectedOption": null
             }
         ]
+
         ,
 
         // audioComprehension: [
@@ -429,7 +433,11 @@ const Quiz = () => {
                 <img className='w-[150px]' src={reading} alt='' />
             </div>
             <div className='pt-7 '>
-                <p className='mb-2 px-10 text-justify font-light text-gray-700'>My name is Anna. I am a student. I have a brother and a sister. My brother's name is Tom. He is ten years old. My sister's name is Lucy. She is five years old. We have a cat. Its name is Whiskers. My parents are very kind. My father's name is John and my mother's name is Mary. We live in a small house. Our house is very cozy. I love my family.</p>
+                <p className='mb-2 px-10 text-justify font-light text-gray-700'>John is a very organized person with a well-established daily routine. Every day, John wakes up at 7:00 AM, ready to start his day. His birthday is in May, a time of year he loves because the weather is perfect for outdoor celebrations.
+
+                    John is a manager at a company and has an important meeting every Friday. Despite his busy schedule, he always finds time for his hobbies. He likes to read books in the quiet of the evening. It's his way of relaxing after a long day of work.
+
+                    John also has the habit of doing his shopping before midnight, as the store he regularly goes to closes at that time. This routine has allowed him to maintain a balance between his work and personal life, ensuring that he has time for himself and his personal interests.</p>
             </div>
             {renderQuestions("paragraphInterpretation", questions.paragraphInterpretation)}
 
