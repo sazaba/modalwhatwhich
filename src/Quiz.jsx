@@ -60,37 +60,37 @@ const Quiz = () => {
         multipleChoice: [
             {
                 "id": 1,
-                "question": "___ (near)is my favorite book.",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["This"],
+                "question": "I need help with my homework. ___ you help me with my homework?",
+                "options": ["Can", "Should", "Would", "Which"],
+                "answer": ["Can"],
                 "selectedOption": null
             },
             {
                 "id": 2,
-                "question": "Can you see ___(far) mountains over there?",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["Those"],
+                "question": "I'm choosing a color for my room. ___ is your favorite color?",
+                "options": ["What", "Which", "Can", "Should"],
+                "answer": ["What"],
                 "selectedOption": null
             },
             {
                 "id": 3,
-                "question": "___(near) apples are very sweet.",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["These"],
+                "question": "I forgot my pen. ___ I borrow your pen?",
+                "options": ["Can", "Should", "Would", "Which"],
+                "answer": ["Can"],
                 "selectedOption": null
             },
             {
                 "id": 4,
-                "question": "___(far) is the house where I grew up.",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["That"],
+                "question": "We are going out for dinner. ___ you like to join us?",
+                "options": ["Can", "Should", "Would", "What"],
+                "answer": ["Would"],
                 "selectedOption": null
             },
             {
                 "id": 5,
-                "question": "Who left ___(near) books on my desk?",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["These"],
+                "question": "I have two pairs of shoes. ___ shoes should I wear with this dress?",
+                "options": ["What", "Which", "Can", "Would"],
+                "answer": ["Which"],
                 "selectedOption": null
             }
         ]
@@ -99,40 +99,41 @@ const Quiz = () => {
         fillInTheBlank: [
             {
                 "id": 6,
-                "question": "I can't believe ___(near) is happening.",
+                "question": "I don't feel well. I ___ go to the doctor if I don't feel better tomorrow.",
                 "options": [],
-                "answer": ["this"],
+                "answer": ["should", "Should", "SHOULD"],
                 "selectedOption": null
             },
             {
                 "id": 7,
-                "question": "Look at ___(near) pictures from our vacation.",
+                "question": "Would you like something to drink? ___ you like a cup of tea?",
                 "options": [],
-                "answer": ["these"],
+                "answer": ["Would", "would", "WOULD"],
                 "selectedOption": null
             },
             {
                 "id": 8,
-                "question": "Is ___ (far)your coat?",
+                "question": "We are in a foreign country. ___ you speak any other languages?",
                 "options": [],
-                "answer": ["that"],
+                "answer": ["Can", "can", "CAN"],
                 "selectedOption": null
             },
             {
                 "id": 9,
-                "question": "___(far) are my grandparents.",
+                "question": "There are many movies playing tonight. ___ movie do you want to watch?",
                 "options": [],
-                "answer": ["Those"],
+                "answer": ["Which", "WHICH", "which"],
                 "selectedOption": null
             },
             {
                 "id": 10,
-                "question": "___(near) is my favorite song.",
+                "question": "I'm preparing a meal for you. ___ is your favorite food?",
                 "options": [],
-                "answer": ["This"],
+                "answer": ["What", "what", "WHAT"],
                 "selectedOption": null
             }
         ]
+
 
 
 
@@ -140,113 +141,116 @@ const Quiz = () => {
         errorIdentification: [
             {
                 "id": 11,
-                "question": "This are the books I borrowed from the library.",
-                "options": ["This", "are", "borrowed", "No error"],
-                "answer": ["This"],
+                "question": "Identify the error: He should goes to the gym more often.",
+                "options": ["He", "should", "goes", "No error"],
+                "answer": ["goes"],
                 "selectedOption": null
             },
             {
                 "id": 12,
-                "question": "Those is my favorite pair of shoes.",
-                "options": ["Those", "is", "favorite", "No error"],
-                "answer": ["is"],
+                "question": "Identify the error: What you like to do this weekend?",
+                "options": ["What", "you", "like", "No error"],
+                "answer": ["What"],
                 "selectedOption": null
             },
             {
                 "id": 13,
-                "question": "That are the best cookies I have ever eaten.",
-                "options": ["That", "are", "best", "No error"],
-                "answer": ["are"],
+                "question": "Identify the error: Can you tells me the time?",
+                "options": ["Can", "you", "tells", "No error"],
+                "answer": ["tells"],
                 "selectedOption": null
             },
             {
                 "id": 14,
-                "question": "These was a great movie.",
-                "options": ["These", "was", "great", "No error"],
-                "answer": ["These"],
+                "question": "Identify the error: Which is your favorite season?",
+                "options": ["Which", "is", "your", "No error"],
+                "answer": ["No error"],
                 "selectedOption": null
             },
             {
                 "id": 15,
-                "question": "Is this the books you were talking about?",
-                "options": ["Is", "this", "books", "No error"],
-                "answer": ["this"],
+                "question": "Identify the error: Would you can help me with this project?",
+                "options": ["Would", "you", "can", "No error"],
+                "answer": ["can"],
                 "selectedOption": null
             }
         ]
-
 
         ,
         sentenceCompletion: [
             {
                 "id": 16,
-                "question": "___ (near)is the best day of my life.",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["This"],
+                "question": "The restaurant is very popular. I ___ recommend it to anyone.",
+                "options": ["would", "should", "can", "what"],
+                "answer": ["would", "Would", "WOULD"],
                 "selectedOption": null
             },
             {
                 "id": 17,
-                "question": "Can you pass me ___(far) pen?",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["that"],
+                "question": "I'm reading a book right now. ___ book are you reading?",
+                "options": ["Which", "What", "Can", "Should"],
+                "answer": ["Which", "which", "WHICH"],
                 "selectedOption": null
             },
             {
                 "id": 18,
-                "question": "___(near) are the shoes I want to buy.",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["These"],
+                "question": "It's getting cold. ___ you mind closing the door?",
+                "options": ["Would", "Can", "Should", "What"],
+                "answer": ["Would", "would", "WOULD"],
                 "selectedOption": null
             },
             {
                 "id": 19,
-                "question": "Who are ___(far) people in the photograph?",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["those"],
+                "question": "You look tired. ___ you like to sit down for a while?",
+                "options": ["Would", "Can", "Should", "What"],
+                "answer": ["Would", "would", "WOULD"],
                 "selectedOption": null
             },
             {
                 "id": 20,
-                "question": "___(near) is a beautiful painting.",
-                "options": ["This", "That", "These", "Those"],
-                "answer": ["This"],
+                "question": "I have a lot of work to do. ___ I start with this task?",
+                "options": ["Should", "Would", "Can", "What"],
+                "answer": ["Should", "should", "SHOULD"],
                 "selectedOption": null
             }
         ]
-
 
         ,
         paragraphInterpretation: [
             {
                 "id": 21,
-                "question": "When did the Industrial Revolution begin?",
-                "options": ["Early 18th century", "Late 18th century", "Early 19th century", "Late 19th century"],
-                "answer": ["Late 18th century"]
+                "question": "What did Sarah and her friends decide to do?",
+                "options": ["Go shopping", "Plan a picnic", "Visit a museum", "Watch a movie"],
+                "answer": ["Plan a picnic"],
+                "selectedOption": null
             },
             {
                 "id": 22,
-                "question": "What technological advancement played a crucial role in the Industrial Revolution?",
-                "options": ["Telecommunication", "Steam engine", "Photography", "Electricity"],
-                "answer": ["Steam engine"]
+                "question": "Which park did Tom suggest they go to?",
+                "options": ["The park by the mall", "The park by the lake", "The park in the city", "The park with a playground"],
+                "answer": ["The park by the lake"],
+                "selectedOption": null
             },
             {
                 "id": 23,
-                "question": "Why did the Industrial Revolution lead to urbanization?",
-                "options": ["To reduce overcrowding in rural areas", "To promote cultural diversity", "To centralize political power", "To accommodate factory workers"],
-                "answer": ["To accommodate factory workers"]
+                "question": "What foods did Tom suggest they bring?",
+                "options": ["Pizza and soda", "Sandwiches, fruit, and drinks", "Burgers and fries", "Hot dogs and chips"],
+                "answer": ["Sandwiches, fruit, and drinks"],
+                "selectedOption": null
             },
             {
                 "id": 24,
-                "question": "How did the Industrial Revolution impact social structures?",
-                "options": ["It reduced social inequalities", "It strengthened feudal systems", "It led to the rise of the working class", "It promoted monarchy"],
-                "answer": ["It led to the rise of the working class"]
+                "question": "What games did they decide to bring?",
+                "options": ["A soccer ball and a kite", "A frisbee and board games", "A basketball and cards", "A volleyball and a puzzle"],
+                "answer": ["A frisbee and board games"],
+                "selectedOption": null
             },
             {
                 "id": 25,
-                "question": "Who benefited the most from the economic changes during the Industrial Revolution?",
-                "options": ["Farmers", "Artisans", "Factory owners", "Monarchs"],
-                "answer": ["Factory owners"]
+                "question": "How was the weather on the day of the picnic?",
+                "options": ["Rainy", "Cold", "Perfect", "Windy"],
+                "answer": ["Perfect"],
+                "selectedOption": null
             }
         ]
 
@@ -434,14 +438,12 @@ const Quiz = () => {
                 <img className='w-[150px]' src={reading} alt='' />
             </div>
             <div className='pt-7 flex flex-col items-center'>
-                <h2>A Day in the Park</h2>
+                <h2>Planning a Picnic</h2>
                 <p className='mb-2 px-10 text-justify font-light text-gray-700'>
 
-                    Last Saturday, I decided to spend the day at the park. The weather was perfect, with clear skies and a gentle breeze. I packed a picnic basket with some sandwiches, fruit, and a bottle of lemonade. When I arrived at the park, I found a nice spot under a large oak tree and laid out my blanket.
 
-                    After enjoying my lunch, I took a walk around the park. There were many people enjoying the day—some were playing frisbee, others were jogging, and a few were having barbecues with their families. I saw a group of children flying kites, their colorful kites dancing in the sky.
 
-                    Later in the afternoon, I decided to read a book I had brought with me. The story was so interesting that I lost track of time. When I finally looked up, the sun was beginning to set, casting a warm glow over the park. I packed up my things and headed home, feeling relaxed and happy after a wonderful day outdoors..</p>
+                    Sarah and her friends decided to go on a picnic. They chose a beautiful park that was not too far from their homes. Sarah asked, "Which park should we go to?" Her friend, Tom, replied, "We should go to the park by the lake. It’s so peaceful there." They all agreed and started packing their picnic baskets. Sarah asked, "What foods should we bring?" Tom suggested sandwiches, fruit, and drinks. Sarah wondered, "Should we need any games to play?" They decided to bring a frisbee and some board games. On the day of the picnic, the weather was perfect. Sarah asked, "Can we leave now?" Everyone was ready, and they had a fantastic day at the park.</p>
             </div>
             {renderQuestions("paragraphInterpretation", questions.paragraphInterpretation)}
 
