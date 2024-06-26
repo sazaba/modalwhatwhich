@@ -60,37 +60,37 @@ const Quiz = () => {
         multipleChoice: [
             {
                 "id": 1,
-                "question": "___ is responsible for managing a company's finances.",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Who"],
+                "question": "___ (near)is my favorite book.",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["This"],
                 "selectedOption": null
             },
             {
                 "id": 2,
-                "question": "___ do plants need sunlight?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Why"],
+                "question": "Can you see ___(far) mountains over there?",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["Those"],
                 "selectedOption": null
             },
             {
                 "id": 3,
-                "question": "___ do leaves typically change color?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["When"],
+                "question": "___(near) apples are very sweet.",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["These"],
                 "selectedOption": null
             },
             {
                 "id": 4,
-                "question": "___ does a computer process information?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["How"],
+                "question": "___(far) is the house where I grew up.",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["That"],
                 "selectedOption": null
             },
             {
                 "id": 5,
-                "question": "___ wrote 'Romeo and Juliet'?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Who"],
+                "question": "Who left ___(near) books on my desk?",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["These"],
                 "selectedOption": null
             }
         ]
@@ -99,77 +99,78 @@ const Quiz = () => {
         fillInTheBlank: [
             {
                 "id": 6,
-                "question": "___ do birds migrate south for the winter?",
+                "question": "I can't believe ___(near) is happening.",
                 "options": [],
-                "answer": ["Why", "why", "WHY"],
+                "answer": ["this"],
                 "selectedOption": null
             },
             {
                 "id": 7,
-                "question": "___ should we recycle plastic bottles?",
+                "question": "Look at ___(near) pictures from our vacation.",
                 "options": [],
-                "answer": ["Why", "why", "WHY"],
+                "answer": ["these"],
                 "selectedOption": null
             },
             {
                 "id": 8,
-                "question": "___ did the Titanic sink?",
+                "question": "Is ___ (far)your coat?",
                 "options": [],
-                "answer": ["When", "when", "WHEN"],
+                "answer": ["that"],
                 "selectedOption": null
             },
             {
                 "id": 9,
-                "question": "___ does a plant grow?",
+                "question": "___(far) are my grandparents.",
                 "options": [],
-                "answer": ["How", "HOW", "how"],
+                "answer": ["Those"],
                 "selectedOption": null
             },
             {
                 "id": 10,
-                "question": "___ is the CEO of Microsoft?",
+                "question": "___(near) is my favorite song.",
                 "options": [],
-                "answer": ["Who", "who", "WHO"],
+                "answer": ["This"],
                 "selectedOption": null
             }
         ]
+
 
 
         ,
         errorIdentification: [
             {
                 "id": 11,
-                "question": " ___ is your best friend?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Who"],
+                "question": "This are the books I borrowed from the library.",
+                "options": ["This", "are", "borrowed", "No error"],
+                "answer": ["This"],
                 "selectedOption": null
             },
             {
                 "id": 12,
-                "question": " ___ does it rain in the desert?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Why"],
+                "question": "Those is my favorite pair of shoes.",
+                "options": ["Those", "is", "favorite", "No error"],
+                "answer": ["is"],
                 "selectedOption": null
             },
             {
                 "id": 13,
-                "question": " ___ was George Washington born?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["When"],
+                "question": "That are the best cookies I have ever eaten.",
+                "options": ["That", "are", "best", "No error"],
+                "answer": ["are"],
                 "selectedOption": null
             },
             {
                 "id": 14,
-                "question": " ___ can you speak Spanish?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["How"],
+                "question": "These was a great movie.",
+                "options": ["These", "was", "great", "No error"],
+                "answer": ["These"],
                 "selectedOption": null
             },
             {
                 "id": 15,
-                "question": " ___ is your favorite color?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["What"],
+                "question": "Is this the books you were talking about?",
+                "options": ["Is", "this", "books", "No error"],
+                "answer": ["this"],
                 "selectedOption": null
             }
         ]
@@ -179,37 +180,37 @@ const Quiz = () => {
         sentenceCompletion: [
             {
                 "id": 16,
-                "question": "___ did you buy that book?",
-                "options": [],
-                "answer": ["Why", "why", "WHY"],
+                "question": "___ (near)is the best day of my life.",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["This"],
                 "selectedOption": null
             },
             {
                 "id": 17,
-                "question": "___ can we improve air quality?",
-                "options": [],
-                "answer": ["How", "how", "HOW"],
+                "question": "Can you pass me ___(far) pen?",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["that"],
                 "selectedOption": null
             },
             {
                 "id": 18,
-                "question": "___ was Shakespeare born?",
-                "options": [],
-                "answer": ["When", "when", "WHEN"],
+                "question": "___(near) are the shoes I want to buy.",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["These"],
                 "selectedOption": null
             },
             {
                 "id": 19,
-                "question": "___ wrote 'Hamlet'?",
-                "options": [],
-                "answer": ["Who", "who", "WHO"],
+                "question": "Who are ___(far) people in the photograph?",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["those"],
                 "selectedOption": null
             },
             {
                 "id": 20,
-                "question": "___ do you cook pasta?",
-                "options": [],
-                "answer": ["How", "how", "HOW"],
+                "question": "___(near) is a beautiful painting.",
+                "options": ["This", "That", "These", "Those"],
+                "answer": ["This"],
                 "selectedOption": null
             }
         ]
@@ -432,8 +433,15 @@ const Quiz = () => {
                 <h2 className='font-semibold text-center px-5 text-xl pt-7 text-white'>Paragraph Interpretation</h2>
                 <img className='w-[150px]' src={reading} alt='' />
             </div>
-            <div className='pt-7 '>
-                <p className='mb-2 px-10 text-justify font-light text-gray-700'>The Industrial Revolution, a pivotal period in history, began in the late 18th century in Britain. It marked a significant shift from agrarian economies to industrialized societies, driven by technological advancements in manufacturing and transportation. Key inventions such as the steam engine revolutionized production processes, leading to the establishment of factories and urbanization. This period saw profound social and economic changes, including the rise of capitalism, urban poverty, and the emergence of the working class. The Industrial Revolution not only transformed the economic landscape but also had far-reaching impacts on culture, politics, and global trade.</p>
+            <div className='pt-7 flex flex-col items-center'>
+                <h2>A Day in the Park</h2>
+                <p className='mb-2 px-10 text-justify font-light text-gray-700'>
+
+                    Last Saturday, I decided to spend the day at the park. The weather was perfect, with clear skies and a gentle breeze. I packed a picnic basket with some sandwiches, fruit, and a bottle of lemonade. When I arrived at the park, I found a nice spot under a large oak tree and laid out my blanket.
+
+                    After enjoying my lunch, I took a walk around the park. There were many people enjoying the day—some were playing frisbee, others were jogging, and a few were having barbecues with their families. I saw a group of children flying kites, their colorful kites dancing in the sky.
+
+                    Later in the afternoon, I decided to read a book I had brought with me. The story was so interesting that I lost track of time. When I finally looked up, the sun was beginning to set, casting a warm glow over the park. I packed up my things and headed home, feeling relaxed and happy after a wonderful day outdoors..</p>
             </div>
             {renderQuestions("paragraphInterpretation", questions.paragraphInterpretation)}
 
