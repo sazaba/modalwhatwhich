@@ -60,195 +60,195 @@ const Quiz = () => {
         multipleChoice: [
             {
                 "id": 1,
-                "question": "I will call you ___.",
-                "options": ["in the morning", "on the morning", "at the morning"],
-                "answer": ["in the morning"],
+                "question": "___ is responsible for managing a company's finances.",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["Who"],
                 "selectedOption": null
             },
             {
                 "id": 2,
-                "question": "We have lunch ___.",
-                "options": ["in noon", "on noon", "at noon"],
-                "answer": ["at noon"],
+                "question": "___ do plants need sunlight?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["Why"],
                 "selectedOption": null
             },
             {
                 "id": 3,
-                "question": "She was born ___.",
-                "options": ["in January", "on January", "at January"],
-                "answer": ["in January"],
+                "question": "___ do leaves typically change color?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["When"],
                 "selectedOption": null
             },
             {
                 "id": 4,
-                "question": "The movie starts ___.",
-                "options": ["in 7:00 PM", "on 7:00 PM", "at 7:00 PM"],
-                "answer": ["at 7:00 PM"],
+                "question": "___ does a computer process information?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["How"],
                 "selectedOption": null
             },
             {
                 "id": 5,
-                "question": "They visit their grandparents ___.",
-                "options": ["in the weekend", "on the weekend", "at the weekend"],
-                "answer": ["on the weekend"],
+                "question": "___ wrote 'Romeo and Juliet'?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["Who"],
                 "selectedOption": null
             }
         ]
+
         ,
         fillInTheBlank: [
             {
                 "id": 6,
-                "question": "I usually wake up ___ 7:00 AM.",
+                "question": "___ do birds migrate south for the winter?",
                 "options": [],
-                "answer": ["at", "At", "AT"],
+                "answer": ["Why", "why", "WHY"],
                 "selectedOption": null
             },
             {
                 "id": 7,
-                "question": "My birthday is ___ May.",
+                "question": "___ should we recycle plastic bottles?",
                 "options": [],
-                "answer": ["in", "In", "IN"],
+                "answer": ["Why", "why", "WHY"],
                 "selectedOption": null
             },
             {
                 "id": 8,
-                "question": "We have a meeting ___ Friday.",
+                "question": "___ did the Titanic sink?",
                 "options": [],
-                "answer": ["on", "On", "ON"],
+                "answer": ["When", "when", "WHEN"],
                 "selectedOption": null
             },
             {
                 "id": 9,
-                "question": "She likes to read books ___ the evening.",
+                "question": "___ does a plant grow?",
                 "options": [],
-                "answer": ["in", "In", "IN"],
+                "answer": ["How", "HOW", "how"],
                 "selectedOption": null
             },
             {
                 "id": 10,
-                "question": "The store closes ___ midnight.",
+                "question": "___ is the CEO of Microsoft?",
                 "options": [],
-                "answer": ["at", "At", "AT"],
+                "answer": ["Who", "who", "WHO"],
                 "selectedOption": null
             }
         ]
+
 
         ,
         errorIdentification: [
             {
                 "id": 11,
-                "question": "I will call you on the morning.",
-                "options": ["I", "will call", "on", "the morning"],
-                "answer": ["on"],
+                "question": " ___ is your best friend?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["Who"],
                 "selectedOption": null
             },
             {
                 "id": 12,
-                "question": "We have lunch on noon.",
-                "options": ["We", "have lunch", "on", "noon"],
-                "answer": ["on"],
+                "question": " ___ does it rain in the desert?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["Why"],
                 "selectedOption": null
             },
             {
                 "id": 13,
-                "question": "She was born at January.",
-                "options": ["She", "was born", "at", "January"],
-                "answer": ["at"],
+                "question": " ___ was George Washington born?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["When"],
                 "selectedOption": null
             },
             {
                 "id": 14,
-                "question": "The movie starts in 7:00 PM.",
-                "options": ["The movie", "starts", "in", "7:00 PM"],
-                "answer": ["in"],
+                "question": " ___ can you speak Spanish?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["How"],
                 "selectedOption": null
             },
             {
                 "id": 15,
-                "question": "They visit their grandparents in the weekend.",
-                "options": ["They", "visit", "in", "the weekend"],
-                "answer": ["in"],
+                "question": " ___ is your favorite color?",
+                "options": ["Who", "Why", "When", "How"],
+                "answer": ["What"],
                 "selectedOption": null
             }
         ]
+
 
         ,
         sentenceCompletion: [
             {
                 "id": 16,
-                "question": "I usually wake up ___.",
-                "options": ["at 7:00 AM", "on 7:00 AM", "in 7:00 AM"],
-                "answer": ["at 7:00 AM"],
+                "question": "___ did you buy that book?",
+                "options": [],
+                "answer": ["Why", "why", "WHY"],
                 "selectedOption": null
             },
             {
                 "id": 17,
-                "question": "My birthday is ___.",
-                "options": ["at May", "on May", "in May"],
-                "answer": ["in May"],
+                "question": "___ can we improve air quality?",
+                "options": [],
+                "answer": ["How", "how", "HOW"],
                 "selectedOption": null
             },
             {
                 "id": 18,
-                "question": "We have a meeting ___.",
-                "options": ["at Friday", "on Friday", "in Friday"],
-                "answer": ["on Friday"],
+                "question": "___ was Shakespeare born?",
+                "options": [],
+                "answer": ["When", "when", "WHEN"],
                 "selectedOption": null
             },
             {
                 "id": 19,
-                "question": "She likes to read books ___.",
-                "options": ["at the evening", "on the evening", "in the evening"],
-                "answer": ["in the evening"],
+                "question": "___ wrote 'Hamlet'?",
+                "options": [],
+                "answer": ["Who", "who", "WHO"],
                 "selectedOption": null
             },
             {
                 "id": 20,
-                "question": "The store closes ___.",
-                "options": ["at midnight", "on midnight", "in midnight"],
-                "answer": ["at midnight"],
+                "question": "___ do you cook pasta?",
+                "options": [],
+                "answer": ["How", "how", "HOW"],
                 "selectedOption": null
             }
         ]
+
 
         ,
         paragraphInterpretation: [
             {
                 "id": 21,
-                "question": "What time does the person usually wake up?",
-                "options": ["7:00 AM", "8:00 AM", "9:00 AM"],
-                "answer": ["7:00 AM"],
-                "selectedOption": null
+                "question": "When did the Industrial Revolution begin?",
+                "options": ["Early 18th century", "Late 18th century", "Early 19th century", "Late 19th century"],
+                "answer": ["Late 18th century"]
             },
             {
                 "id": 22,
-                "question": "When is the person's birthday?",
-                "options": ["In May", "In June", "In July"],
-                "answer": ["In May"],
-                "selectedOption": null
+                "question": "What technological advancement played a crucial role in the Industrial Revolution?",
+                "options": ["Telecommunication", "Steam engine", "Photography", "Electricity"],
+                "answer": ["Steam engine"]
             },
             {
                 "id": 23,
-                "question": "On which day is the meeting?",
-                "options": ["Monday", "Wednesday", "Friday"],
-                "answer": ["Friday"],
-                "selectedOption": null
+                "question": "Why did the Industrial Revolution lead to urbanization?",
+                "options": ["To reduce overcrowding in rural areas", "To promote cultural diversity", "To centralize political power", "To accommodate factory workers"],
+                "answer": ["To accommodate factory workers"]
             },
             {
                 "id": 24,
-                "question": "When does the person like to read books?",
-                "options": ["In the morning", "In the afternoon", "In the evening"],
-                "answer": ["In the evening"],
-                "selectedOption": null
+                "question": "How did the Industrial Revolution impact social structures?",
+                "options": ["It reduced social inequalities", "It strengthened feudal systems", "It led to the rise of the working class", "It promoted monarchy"],
+                "answer": ["It led to the rise of the working class"]
             },
             {
                 "id": 25,
-                "question": "At what time does the store close?",
-                "options": ["At 10:00 PM", "At midnight", "At 11:00 PM"],
-                "answer": ["At midnight"],
-                "selectedOption": null
+                "question": "Who benefited the most from the economic changes during the Industrial Revolution?",
+                "options": ["Farmers", "Artisans", "Factory owners", "Monarchs"],
+                "answer": ["Factory owners"]
             }
         ]
+
 
         ,
 
@@ -433,11 +433,7 @@ const Quiz = () => {
                 <img className='w-[150px]' src={reading} alt='' />
             </div>
             <div className='pt-7 '>
-                <p className='mb-2 px-10 text-justify font-light text-gray-700'>John is a very organized person with a well-established daily routine. Every day, John wakes up at 7:00 AM, ready to start his day. His birthday is in May, a time of year he loves because the weather is perfect for outdoor celebrations.
-
-                    John is a manager at a company and has an important meeting every Friday. Despite his busy schedule, he always finds time for his hobbies. He likes to read books in the quiet of the evening. It's his way of relaxing after a long day of work.
-
-                    John also has the habit of doing his shopping before midnight, as the store he regularly goes to closes at that time. This routine has allowed him to maintain a balance between his work and personal life, ensuring that he has time for himself and his personal interests.</p>
+                <p className='mb-2 px-10 text-justify font-light text-gray-700'>The Industrial Revolution, a pivotal period in history, began in the late 18th century in Britain. It marked a significant shift from agrarian economies to industrialized societies, driven by technological advancements in manufacturing and transportation. Key inventions such as the steam engine revolutionized production processes, leading to the establishment of factories and urbanization. This period saw profound social and economic changes, including the rise of capitalism, urban poverty, and the emergence of the working class. The Industrial Revolution not only transformed the economic landscape but also had far-reaching impacts on culture, politics, and global trade.</p>
             </div>
             {renderQuestions("paragraphInterpretation", questions.paragraphInterpretation)}
 
